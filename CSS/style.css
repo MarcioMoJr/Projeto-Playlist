@@ -28,15 +28,15 @@ h2 {
 }
 
 .card.gaga {
-    background: radial-gradient(circle, #6b0f6b, #0d0008 )
+    background: radial-gradient(ellipse, rgb(25, 3, 70), rgb(0, 0, 0))
 }
 
 .card.bruno {
-    background: radial-gradient(circle, #8b6000, #0d0800)
+    background: radial-gradient(ellipse, rgb(100, 60, 0), rgb(0, 0, 0))
 }
 
 .card.lennon {
-    background: radial-gradient(circle, #0a3d6b, #00080d)
+    background: radial-gradient(ellipse, rgb(3, 40, 90), rgb(0, 2, 5))
 }
 
 .card:hover {

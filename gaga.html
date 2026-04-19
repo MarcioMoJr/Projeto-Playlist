@@ -1,71 +1,106 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./CSS/artistas.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
+
     <div class="container">
+
         <div class="left">
-            <a href="../index.html">voltar</a>
-            <p>| 01 - Artista</p>
-            <h2>LADY<br>GAGA</h2>
-            <div class="info">
-                <div>
-                    <p>Gênero</p>
-                    <p>Pop &bull; Dance</p>
-                </div>
-                <div>
-                    <p>Músicas</p>
-                    <p>5 faixas</p>
-                </div>
-                <div>
-                    <p>País</p>
-                    <p>EUA</p>
-                </div>
+
+            <a class="btn-voltar" href="../index.html">&larr; voltar</a>
+
+            <div>
+                <p>| 01 - Artista</p>
+                <h2>LADY GAGA</h2>
+                <dl class="info">
+                    <div>
+                        <dt>Gênero</dt>
+                        <dd>Pop &bull; Dance</dd>
+                    </div>
+                    <span>|</span>
+                    <div>
+                        <dt>Músicas</dt>
+                        <dd>5 faixas</dd>
+                    </div>
+                    <span>|</span>
+                    <div>
+                        <dt>País</dt>
+                        <dd>EUA</dd>
+                    </div>
+                </dl>
             </div>
         </div>
+
         <div class="right">
-            <h2>Melhores Músicas</h2>
-            <div class="song">
-                <p>01</p>
-                <img src="img/AALBS.jpg" alt="">
-                <h3>Shallow</h3>
-                <p>A Stars is Born, 2018</p>
-                <audio src="audio/LadyGaga-Shallow.mp3" controls></audio>
-            </div>
-            <div class="song">
-                <p>02</p>
-                <img src="img/Lady_Gaga_-_Mayhem.jpg" alt="">
-                <h3>Die With A Smile</h3>
-                <p>MAYHEM, 2025</p>
-                <audio src="audio/LadyGaga-DieWithASmile.mp3" controls></audio>
-            </div>
-            <div class="song">
-                <p>03</p>
-                <img src="img/Capa_de_The_Fame_por_Lady_Gaga_(2008).jpg" alt="">
-                <h3>Poker Face</h3>
-                <p>The Fame, 2008</p>
-                <audio src="audio/LadyGaga-PokerFace.mp3" controls></audio>
-            </div>
-            <div class="song">
-                <p>04</p>
-                <img src="img/AALBS.jpg" alt="">
-                <h3>Always Remember Us This Way</h3>
-                <p>A Stars is Born, 2018</p>
-                <audio src="audio/LadyGaga-AlwaysRememberUsThisWay.mp3" controls></audio>
-            </div>
-            <div class="song">
-                <p>05</p>
-                <img src="img/TheFameMonsterStandard.jpg" alt="">
-                <h3>Bad Romance</h3>
-                <p>The Fame Monster, 2009</p>
-                <audio src="audio/LadyGaga-BadRomance.mp3" controls></audio>
-            </div>
+            <h3>TOP 5 MÚSICAS </h3>
+
+            <ol class="song-list">
+                <li class="song">
+                    <span>01</span>
+                    <img src="img/AALBS.jpg" alt="">
+                    <div class="song-info">
+                        <h4>Shallow</h4>
+                        <p>A Stars is Born, 2018</p>
+                    </div>
+                    <audio src="audio/LadyGaga-Shallow.mp3" controls></audio>
+                </li>
+
+                <li class="song">
+                    <span>02</span>
+                    <img src="img/Lady_Gaga_-_Mayhem.jpg" alt="">
+                    <div class="song-info">
+                        <h4>Die With A Smile</h4>
+                        <p>MAYHEM, 2025</p>
+                    </div>
+                    <audio src="audio/LadyGaga-DieWithASmile.mp3" controls></audio>
+                </li>
+
+                <li class="song">
+                    <span>03</span>
+                    <img src="img/Capa_de_The_Fame_por_Lady_Gaga_(2008).jpg" alt="">
+                    <div class="song-info">
+                        <h4>Poker Face</h4>
+                        <p>The Fame, 2008</p>
+                    </div>
+                    <audio src="audio/LadyGaga-PokerFace.mp3" controls></audio>
+                </li>
+
+                <li class="song">
+                    <span>04</span>
+                    <img src="img/AALBS.jpg" alt="">
+                    <div class="song-info">
+                        <h4>Always Remember Us This Way</h4>
+                        <p>A Stars is Born, 2018</p>
+                    </div>
+                    <audio src="audio/LadyGaga-AlwaysRememberUsThisWay.mp3" controls></audio>
+                </li>
+
+                <li class="song">
+                    <span>05</span>
+                    <img src="img/TheFameMonsterStandard.jpg" alt="">
+                    <div class="song-info">
+                        <h4>Bad Romance</h4>
+                        <p>The Fame Monster, 2009</p>
+                    </div>
+                    <audio src="audio/LadyGaga-BadRomance.mp3" controls></audio>
+                </li>
+
+            </ol>
         </div>
     </div>
-    
+
 </body>
+
 </html>
