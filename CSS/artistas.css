@@ -1,5 +1,12 @@
-body {
+body.gaga {
     background: radial-gradient(circle, rgb(62, 10, 107), rgb(13, 0, 8));
+    color: white;
+    font-family: 'DM Sans';
+    margin: 0;
+}
+
+body.bruno {
+    background: radial-gradient(circle, rgb(92, 58, 0), rgb(13, 8, 0));
     color: white;
     font-family: 'DM Sans';
     margin: 0;
@@ -32,7 +39,7 @@ h3 {
     padding: 45px;
 }
 
-.right{
+.right {
     background-color: rgba(0, 0, 0, 0.6);
     flex: 1;
     display: flex;
