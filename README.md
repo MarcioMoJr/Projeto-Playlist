@@ -1,5 +1,5 @@
 # Projeto Playlist
-Site de playlist musicais desenvolvido como projeto escolar.
+Site de playlists musicais desenvolvido como projeto escolar.
 
 ## Acesse o site
 [marciomojr.github.io/Projeto-Playlist](https://marciomojr.github.io/Projeto-Playlist)
