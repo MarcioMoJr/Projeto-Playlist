@@ -8,5 +8,5 @@ Site de playlists musicais desenvolvido como projeto escolar.
 - Marcio Marques
 - Victor Alexandre
 - Nicollas Pereira
-- Isaques Esteves
+- Isaque Esteves
 - Wellington Vieira
