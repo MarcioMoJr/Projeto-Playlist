@@ -1,18 +1,24 @@
-body.gaga {
-    background: radial-gradient(circle, rgb(62, 10, 107), rgb(13, 0, 8));
+/* GERAL */
+body {
     color: white;
     font-family: 'DM Sans';
     margin: 0;
+}
+
+body.gaga {
+    background: radial-gradient(circle, rgb(25, 3, 50), rgb(0, 0, 0));
 }
 
 body.bruno {
-    background: radial-gradient(circle, rgb(92, 58, 0), rgb(13, 8, 0));
-    color: white;
-    font-family: 'DM Sans';
-    margin: 0;
+    background: radial-gradient(circle, rgb(120, 50, 0), rgb(0, 0, 0));
 }
 
-h2{
+body.weeknd{
+    background: radial-gradient(circle, rgb(90, 0, 0), rgb(0, 0, 0) );
+}
+
+/* TÍTULOS */
+h2 {
     font-family: 'Bebas Neue';
     font-size: 100px;
     line-height: 1;
@@ -26,12 +32,13 @@ h3 {
     margin: 0;
 }
 
+/* LAYOUT */
 .container {
     display: flex;
     height: 100vh;
 }
 
-.left{
+.left {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -48,12 +55,19 @@ h3 {
     gap: 48px;
 }
 
+/*BOTÃO */
 .btn-voltar {
-    color: white;
+    color: rgba(255, 255, 255, 0.5);
     text-decoration: none;
+    transition: color 0.3s;
 }
 
-.info{
+.btn-voltar:hover {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+/* INFORMAÇOES DO ARTISTA */
+.info {
     display: flex;
     gap: 24px;
     margin: 0;
@@ -71,8 +85,13 @@ h3 {
     font-size: 14px;
 }
 
-.song-list {
-    list-style: none;
+.separador {
+    border-left: 1px solid white;
+    padding-left: 24px;
+}
+
+/* LISTA DE MÚSICAS */
+.lista {
     padding: 0;
     margin: 0;
     display: flex;
@@ -80,23 +99,23 @@ h3 {
     gap: 28px; 
 }
 
-.song{
+.musica {
     display: flex;
     align-items: center;
     gap: 12px;
 }
 
-.song img {
+.musica img {
     width: 60px;
     height: 60px;
     border-radius: 8px;
 }
 
-.song-info{
+.info-musica {
     flex: 1;
 }
 
-.song-info h4,
-.song-info p {
+.info-musica h4,
+.info-musica p {
     margin: 0;
 }

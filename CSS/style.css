@@ -1,10 +1,11 @@
+/* GERAL */
 body {
     margin: 0;
-    height: 100vh;
     color: white;
     font-family: 'DM Sans';
 }
 
+/* TÍTULO */
 h2 {
     font-family: 'Bebas Neue';
     font-size: 48px;
@@ -12,12 +13,14 @@ h2 {
     margin: 0;
 }
 
+/* LAYOUT */
 .container {
     display: flex;
     height: 100vh;
     width: 100vw;
 }
 
+/* CARDS */
 .card {
     flex: 1;
     display: flex;
@@ -28,41 +31,33 @@ h2 {
 }
 
 .card.gaga {
-    background: radial-gradient(ellipse, rgb(25, 3, 70), rgb(0, 0, 0))
+    background: radial-gradient(ellipse, rgb(25, 3, 50), rgb(0, 0, 0))
 }
 
 .card.bruno {
-    background: radial-gradient(ellipse, rgb(100, 60, 0), rgb(0, 0, 0))
+    background: radial-gradient(ellipse, rgb(120, 50, 0), rgb(0, 0, 0))
 }
 
-.card.nome {
-    background: radial-gradient(ellipse, rgb(3, 40, 90), rgb(0, 2, 5))
+.card.weeknd {
+    background: radial-gradient(ellipse, rgb(90, 0, 0), rgb(0, 0, 0))
 }
 
 .card:hover {
     flex: 3;
 }
 
+/* BOTÃO */
 .btn-playlist {
     text-decoration: none;
     border-radius: 20px;
-    border: 1px solid;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.25);
     padding: 8px 20px;
     width: fit-content;
     color: white;
 }
 
 .btn-playlist:hover {
-    background-color: rgb(0, 0, 0);
-}
-    
-
-footer {
-    text-align: center;
-    padding: 16px;
-    font-size: 12px;
-    opacity: 0.5;
-    color: rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.18);
+    border-color: rgba(255, 255, 255, 0.5);
 }
