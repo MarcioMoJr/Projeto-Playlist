@@ -55,6 +55,12 @@ h3 {
     gap: 48px;
 }
 
+.disco{
+    width: 380px;
+    margin: auto;
+}
+
+
 /*BOTÃO */
 .btn-voltar {
     color: rgba(255, 255, 255, 0.5);
@@ -103,6 +109,11 @@ h3 {
     display: flex;
     align-items: center;
     gap: 12px;
+}
+
+.musica:hover {
+    transition: 0.6s;
+    transform: scale(1.05);
 }
 
 .musica img {
