@@ -1,0 +1,28 @@
+
+.btn-playlist {
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    padding: 8px 20px;
+    width: fit-content;
+    color: white;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+
+.btn-playlist:hover {
+    background-color: rgba(255, 255, 255, 0.18);
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.btn-voltar {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.btn-voltar:hover {
+    color: rgba(255, 255, 255, 0.9);
+}

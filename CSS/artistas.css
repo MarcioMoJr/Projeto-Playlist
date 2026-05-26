@@ -1,23 +1,4 @@
-/* GERAL */
-body {
-    color: white;
-    font-family: 'DM Sans';
-    margin: 0;
-}
 
-body.gaga {
-    background: radial-gradient(circle, rgb(25, 3, 50), rgb(0, 0, 0));
-}
-
-body.bruno {
-    background: radial-gradient(circle, rgb(120, 50, 0), rgb(0, 0, 0));
-}
-
-body.weeknd{
-    background: radial-gradient(circle, rgb(90, 0, 0), rgb(0, 0, 0) );
-}
-
-/* TÍTULOS */
 h2 {
     font-family: 'Bebas Neue';
     font-size: 100px;
@@ -32,101 +13,7 @@ h3 {
     margin: 0;
 }
 
-/* LAYOUT */
-.container {
-    display: flex;
-    height: 100vh;
-}
-
-.left {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 45px;
-}
-
-.right {
-    background-color: rgba(0, 0, 0, 0.6);
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    padding: 30px;
-    gap: 48px;
-}
-
 .disco{
     width: 380px;
     margin: auto;
-}
-
-
-/*BOTÃO */
-.btn-voltar {
-    color: rgba(255, 255, 255, 0.5);
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
-.btn-voltar:hover {
-    color: rgba(255, 255, 255, 0.9);
-}
-
-/* INFORMAÇOES DO ARTISTA */
-.info {
-    display: flex;
-    gap: 24px;
-    margin: 0;
-    padding: 0;
-    align-items: center;
-}
-
-.info dt {
-    font-size: 12px;
-    opacity: 0.7;
-}
-
-.info dd {
-    margin: 0;
-    font-size: 14px;
-}
-
-.separador {
-    border-left: 1px solid white;
-    padding-left: 24px;
-}
-
-/* LISTA DE MÚSICAS */
-.lista {
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 28px; 
-}
-
-.musica {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-}
-
-.musica:hover {
-    transition: 0.6s;
-    transform: scale(1.05);
-}
-
-.musica img {
-    width: 60px;
-    height: 60px;
-    border-radius: 8px;
-}
-
-.info-musica {
-    flex: 1;
-}
-
-.info-musica h4,
-.info-musica p {
-    margin: 0;
 }

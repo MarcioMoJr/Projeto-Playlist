@@ -1,0 +1,18 @@
+
+body {
+    margin: 0;
+    color: white;
+    font-family: 'DM Sans';
+}
+
+body.gaga {
+    background: radial-gradient(circle, rgb(25, 3, 50), rgb(0, 0, 0));
+}
+
+body.bruno {
+    background: radial-gradient(circle, rgb(120, 50, 0), rgb(0, 0, 0));
+}
+
+body.weeknd{
+    background: radial-gradient(circle, rgb(90, 0, 0), rgb(0, 0, 0) );
+}

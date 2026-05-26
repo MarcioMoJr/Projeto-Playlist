@@ -1,0 +1,32 @@
+
+h2 {
+    font-family: 'Bebas Neue';
+    font-size: 48px;
+    line-height: 1;
+    margin: 0;
+}
+
+.card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 45px;
+    transition: flex 0.6s;
+}
+
+.card.gaga {
+    background: radial-gradient(ellipse, rgb(25, 3, 50), rgb(0, 0, 0))
+}
+
+.card.bruno {
+    background: radial-gradient(ellipse, rgb(120, 50, 0), rgb(0, 0, 0))
+}
+
+.card.weeknd {
+    background: radial-gradient(ellipse, rgb(90, 0, 0), rgb(0, 0, 0))
+}
+
+.card:hover {
+    flex: 3;
+}
