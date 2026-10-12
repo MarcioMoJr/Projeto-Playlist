@@ -9,8 +9,7 @@
 ![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=github&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-### [🔗 Acessar o site (Vercel)](https://projeto-playlist-six.vercel.app/)
-### [🔗 Acessar o site (GitHub Pages)](https://marciomojr.github.io/Projeto-Playlist/)
+
 
 </div>
 
